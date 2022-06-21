@@ -81,6 +81,7 @@ public class UIManager : MonoBehaviour
         
       SpeedLevelText.text=("LEVEL "+SpeedLevelData);
       SpeedCostText.text=("Cost:"+UpgradeManager.Instance.SpeedCost);
+      MoneyText.text=GameManager.Instance.Money.ToString();
      }
 
      else
@@ -100,6 +101,7 @@ public class UIManager : MonoBehaviour
 
          StackLevelText.text=("LEVEL "+StackLevelData);
          StackCostText.text=("Cost:"+UpgradeManager.Instance.StackCost);
+         MoneyText.text=GameManager.Instance.Money.ToString();
      }
      else
      {
